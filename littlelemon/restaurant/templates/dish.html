@@ -1,6 +1,0 @@
-{% extends 'base.html' %} {% load static %} {% block content %}
-<h1>{{dish.name}}</h1>
-<img src="{% static 'img/' %}{{dish.img}}" alt="" srcset="" height="300px">
-<div style="color: darkgreen; font-size: 50px;">${{dish.price}}</div>
-<div>{{dish.menu_item_description}}</div>
-{% endblock %}
